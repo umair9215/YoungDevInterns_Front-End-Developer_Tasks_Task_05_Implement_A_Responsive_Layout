@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Implement A Responsive Layout</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <i class="fa-solid fa-bars" id="toggle"></i>
+    </header>
+
+    <main>
+      <section class="content" id="home">
+        <div class="contentPara">
+          <h2>Welcome to <span>Our Website</span></h2>
+          <p>
+            At our organization, we are dedicated to delivering top-tier
+            services that align with the evolving needs of our clients. Our team
+            of seasoned professionals leverages cutting-edge technologies to
+            provide innovative solutions tailored to your business goals. We
+            prioritize excellence, efficiency, and customer satisfaction in
+            every project we undertake. Explore our website to learn more about
+            how we can partner with you to achieve success in a rapidly changing
+            digital landscape.
+          </p>
+        </div>
+        <div class="contentImg">
+          <img
+            src="./Assests/home.jpg"
+            alt="Welcome"
+            class="responsive-image"
+          />
+        </div>
+      </section>
+
+      <section id="about" class="about content">
+        <div class="contentImg">
+          <img
+            src="./Assests/About.jpg"
+            alt="About Us"
+            class="responsive-image"
+          />
+        </div>
+        <div class="contentPara">
+          <h2>About <span>Us</span></h2>
+          <p>
+            We are a team of passionate professionals committed to driving
+            digital transformation. With years of experience in the industry, we
+            bring a wealth of knowledge and expertise to every project. Our
+            mission is to empower businesses with the tools they need to thrive
+            in an increasingly digital world.
+          </p>
+        </div>
+      </section>
+
+      <section id="services" class="services content">
+        <div class="contentPara">
+          <h2>Our <span>Services</span></h2>
+          <p>
+            Our services range from web development and design to digital
+            marketing and IT consulting. We offer tailored solutions that meet
+            the specific needs of our clients, ensuring they stay ahead in a
+            competitive market. Let us help you unlock your business’s full
+            potential.
+          </p>
+        </div>
+        <div class="contentImg">
+          <img
+            src="./Assests/Services.jpg"
+            alt="Services"
+            class="responsive-image"
+          />
+        </div>
+      </section>
+
+      <section id="contact" class="contact content">
+        <div class="contentImg">
+          <img
+            src="./Assests/Contact.jpg"
+            alt="Contact Us"
+            class="responsive-image"
+          />
+        </div>
+        <div class="contentPara">
+          <h2>Contact <span> Us</span></h2>
+          <p>
+            If you have any questions or would like to discuss how we can assist
+            your business, feel free to reach out to us. Our team is always
+            ready to connect and provide the support you need to achieve your
+            goals. Contact us today to get started.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 My Responsive Webpage | Malik Muhammad Umair</p>
+    </footer>
+
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
